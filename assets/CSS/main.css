@@ -138,21 +138,24 @@ nav ul li a:hover::after {
 .sidebar-menu-list {
   display: flex;
   flex-direction: column;
-  gap: 3rem;
+  gap: 2rem;
   justify-content: center;
 }
 .sidebar-menu-list li {
   background-color: var(--dark-brown);
-  /* border: 2px solid var(--dark-brown); */
+  padding: 1rem;
   border-radius: 1rem;
-  padding: 1.5rem 3rem;
   transition: all 0.33s ease;
 }
 .sidebar-menu-list li a {
+  padding: 3rem;
   color: var(--mocca-white);
 }
 .sidebar-menu-list li:hover {
-  background-color: #765827;
+  background-color: var(--mocca-white);
+}
+.sidebar-menu-list li:hover a {
+  color: var(--dark-brown);
 }
 
 /* MEDIA QUERYS */
