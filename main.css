@@ -108,7 +108,6 @@ nav ul li a:hover::after {
 .login-btn {
   width: 6rem;
   height: 6rem;
-  /* padding: 1rem; */
   color: var(--mocca-white);
   background-color: transparent;
   border: none;
@@ -155,10 +154,71 @@ nav ul li a:hover::after {
   background-color: var(--light-beige);
 }
 
-/* MEDIA QUERYS */
+/* MEDIA QUERYS FOR HEADER */
 
 @media all and (max-width: 768px) {
   nav ul {
     display: none;
+  }
+}
+
+/* ------------- HERO SECTION ------------- */
+.hero-wrapper {
+  width: 100vw;
+  height: 70vh;
+  background-image: url(coffee-1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  object-fit: cover;
+}
+
+/* ------------- SALES SECTION ------------- */
+
+.sales-wrapper {
+  background-color: var(--light-beige);
+  margin-top: 8rem;
+  padding: 2rem;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.sales-items {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+}
+.sales-items div {
+  width: 22vw;
+  height: 50vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  object-fit: cover;
+  border-radius: 0.5rem;
+}
+.sales-item-1 {
+  background-image: url(coffee-2.jpg);
+}
+.sales-item-2 {
+  background-image: url(coffee-3.jpg);
+}
+.sales-item-3 {
+  background-image: url(coffee-4.jpg);
+}
+.sales-item-4 {
+  background-image: url(coffee-6.jpg);
+}
+
+@media all and (max-width: 1024px) {
+  .sales-items {
+    flex-direction: column;
+  }
+  .sales-items div {
+    width: 70vw;
   }
 }
