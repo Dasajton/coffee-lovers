@@ -116,7 +116,6 @@ nav ul li a:hover::after {
 /* BURGER-MENU-WRAPPER */
 
 .burger-menu-wrapper {
-  position: fixed;
   top: 8rem;
   left: -30rem;
   width: 30rem;
