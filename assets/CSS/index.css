@@ -2,7 +2,7 @@
 .hero-wrapper {
   width: 100vw;
   height: 70vh;
-  background-image: url(/assets/images/coffee-1.jpg);
+  background-image: url(../images/coffee-1.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -38,16 +38,16 @@
   border-radius: 0.5rem;
 }
 .sales-item-1 {
-  background-image: url(/assets/images/coffee-2.jpg);
+  background-image: url(../images/coffee-2.jpg);
 }
 .sales-item-2 {
-  background-image: url(/assets/images/coffee-3.jpg);
+  background-image: url(../images/coffee-3.jpg);
 }
 .sales-item-3 {
-  background-image: url(/assets/images/coffee-4.jpg);
+  background-image: url(../images/coffee-2.jpg);
 }
 .sales-item-4 {
-  background-image: url(/assets/images/coffee-6.jpg);
+  background-image: url(../images/coffee-6.jpg);
 }
 
 @media all and (max-width: 1024px) {
