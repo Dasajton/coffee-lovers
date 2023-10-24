@@ -1,0 +1,10 @@
+.hero-wrapper {
+  width: 100vw;
+  height: 70vh;
+  padding: 8rem;
+  background-image: url(/assets/images/coffee-1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  object-fit: cover;
+}
