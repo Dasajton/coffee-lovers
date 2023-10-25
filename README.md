@@ -8,6 +8,6 @@
 
 ## The Journey is the Reward
 
-**This Website will surely be just one of my hopefully several projects and just like my skills are getting better and better by time, this coffee lovers website will also improve by time.**
+**This Website will surely be just one of my hopefully several projects and just like my skills are getting better and better by time, this coffee lovers website will also improve with me.**
 
 ### Enjoy and please send me feedback if there are some tips you want to share!
